@@ -1,0 +1,211 @@
+body{
+background-color: white;
+}
+.card1 , .card2 , .card3{
+
+  display: inline-block;
+  padding-top: 140px;
+  padding-left: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+}
+
+
+.card1{
+  background-image: url("images/pandemic.jpg");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,1), rgba(239,239,239,0)),url("images/pandemic.jpg");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
+
+.card2{
+  background-image: url("images/quiz.webp");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/quiz.webp");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card3{
+  background-image: url("images/monologue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/monologue.jpg");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
+
+#competetions{
+  margin-top: 50px;
+  padding: 0 50px 0 50px;
+}
+.competetions{
+  display: inline-block;
+  padding-left: 180px;
+}
+.live-competetions , .prizes{
+  background-color: #f6d3bb;
+  display: inline-block;
+  width: 280px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.prizes{
+  margin-left: 20px;
+}
+
+
+.competetion-text{
+  display: inline-block;
+}
+#competetions .fas{
+  background-color: #f9e6da;
+  width: 100px;
+  height: 100px;
+  margin: 15px 14px;
+  border-radius: 9px;
+  text-align: center;
+  padding-top: 25px;
+  /* text-align: center; */
+}
+#carousel-1 .fas , #carousel-2 .fas , #carousel-3 .fas , #carousel-4 .fas{
+  background-color: white;
+  border-radius: 100%;
+  color: #00308F;
+  border: 0px;
+}
+
+.prize-image , .prize-text , .trophy-image{
+  display: inline-block;
+}
+
+.man-holding-trophy{
+  width: 300px;
+  height: 300px;
+
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.man-holding-trophy img{
+  width: 100%;
+  height: 300px;
+}
+
+
+span{
+  background-color: #002D62;
+  border-radius: 100%;
+}
+h3 , h4 , h2{
+  color: #00308F;
+}
+h4{
+  font-size: 18px;
+}
+
+.red{
+  color: red;
+}
+
+#carousel-1 .carousel-item{
+  padding: 20px 0 20px 65px;
+}
+#carousel-2 .carousel-item{
+  padding: 20px 0px 20px 150px;
+}
+#carousel-3 .carousel-item{
+  padding: 20px 0px 20px 150px;
+}
+#carousel-4 .carousel-item{
+  padding: 20px 0px 20px 150px;
+}
+#carousel-2 .card1 , #carousel-2 .card2 , #carousel-2 .card3 , #carousel-3 .card1 , #carousel-3 .card2 , #carousel-3 .card3 ,
+#carousel-4 .card1 , #carousel-4 .card2 , #carousel-4 .card3{
+  width: 335px;
+  height: 200px;
+  text-align: center;
+}
+
+#carousel-2 h2{
+  margin-left: 150px;
+}
+#carousel-3 h3{
+  margin-left: 150px;
+  margin-top: 40px;
+}
+#carousel-4 h3{
+  margin-left: 150px;
+  margin-top: 40px;
+}
+#carousel-4{
+  margin-bottom: 40px;
+}
+
+#carousel-2 .card1{
+  background-image: url("images/music.png");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/music.png");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
+#carousel-2 .card2{
+  background-image: url("images/sports.jpg");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/sports.jpg");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
+#carousel-2 .card3{
+  background-image: url("images/potterhead.jpg");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/potterhead.jpg");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
+#carousel-3 .card1{
+  background-image: url("images/slogan.jpg");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/slogan.jpg");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
+#carousel-3 .card2{
+  background-image: url("images/blog.jpg");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/blog.jpg");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
+#carousel-3 .card3{
+  background-image: url("images/poem.jpg");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/poem.jpg");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
+#carousel-4 .card1{
+  background-image: url("images/charlie.jpg");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/charlie.jpg");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
+#carousel-4 .card2{
+  background-image: url("images/gandhiji.jpg");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/gandhiji.jpg");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
+#carousel-4 .card3{
+  background-image: url("images/monologue2.jpg");
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(239,239,239,255), rgba(239,239,239,0)),url("images/monologue2.jpg");
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+  -ms-interpolation-mode: bicubic;
+}
